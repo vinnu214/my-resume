@@ -1,0 +1,218 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.Description {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-right: 2rem;
+  &__Summary {
+    font-size: 2rem;
+    grid-column: 1 / -1;
+    & > strong {
+      font-size: 2rem;
+    }
+  }
+}
+
+.Details__Communication {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 1.5rem;
+  justify-content: end;
+  justify-items: end;
+}
+.grid-comm {
+  display: grid;
+  grid-template-columns: max-content 20px;
+  align-items: center;
+  & > * {
+    font-size: 2rem;
+    color: $color-black;
+    text-decoration: none;
+  }
+}
+
+.icon {
+  margin: 0.3rem 0 0 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+/************ Heading Component *****************/
+.Heading {
+  border-bottom: 0.5rem solid $color-blue;
+  & > h2 {
+    margin-left: 3rem;
+  }
+}
+
+/************ Work Experience Component ************/
+
+.WE {
+  &__style {
+    &-designation {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    &-company {
+      font-size: 2.5rem;
+      font-style: italic;
+      color: $color-secondary-black;
+    }
+    &-duration {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 2.25rem;
+      color: $color-light-blue;
+      @media screen and (max-width: 480px) {
+        font-size: 7.5rem;
+      }
+    }
+    &-location {
+      justify-self: end;
+    }
+    &-ul {
+      overflow: hidden;
+    }
+
+    &-mainli {
+      list-style: none;
+      height: auto;
+      position: relative;
+      padding-bottom: 2rem;
+      &::before {
+        content: " ";
+        position: absolute;
+        left: -3.5rem;
+        top: 1rem;
+        height: 1rem;
+        width: 1rem;
+        z-index: 1;
+        border: 0.5rem solid $color-blue;
+        border-radius: 50%;
+        background-color: $color-white;
+        @media screen and (max-width: 480px) {
+          border: 2px solid #4685c6;
+        }
+      }
+      &:not(:last-child)::after {
+        content: "";
+        width: 2px;
+        position: absolute;
+        top: 2rem;
+        left: -2.6rem;
+        height: 100%;
+        background-color: $color-blue;
+      }
+    }
+    &-li {
+      list-style: none;
+    }
+    &-img {
+      width: 1.5rem;
+      position: relative;
+      left: -2rem;
+      top: 0.5rem;
+    }
+    &-span {
+      font-size: 1.5rem;
+      text-indent: -0.8rem;
+      &:before {
+        content: "-";
+        color: $color-blue;
+        position: relative;
+        left: -1.5rem;
+        top: 0.2rem;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+/**************** Skills Component **************/
+
+.Skill__name {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+.Skills__container {
+  margin: 2rem 1rem;
+  & span {
+    margin: 10rem 1rem;
+  }
+}
+
+/**************** Certificate Component **********/
+.Certificate {
+  &__Container {
+    margin: 2.5rem 5rem;
+  }
+  &__Sub-Container {
+    margin: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 70% repeat(2, 3rem);
+    justify-content: space-between;
+  }
+  &__li {
+    position: relative;
+    &::before {
+      content: " ";
+      position: absolute;
+      left: -3.5rem;
+      top: 1rem;
+      height: 1rem;
+      width: 1rem;
+      z-index: 1;
+      border: 0.5rem solid $color-blue;
+      border-radius: 50%;
+      background-color: $color-white;
+      @media screen and (max-width: 480px) {
+        border: 2px solid #4685c6;
+      }
+    }
+    &:not(:last-child)::after {
+      content: "";
+      width: 2px;
+      position: absolute;
+      top: 3rem;
+      left: -2.6rem;
+      height: 100%;
+      background-color: $color-blue;
+    }
+  }
+  &__Img,
+  &__Link {
+    height: 3rem;
+    cursor: pointer;
+    @media print {
+      visibility: hidden;
+    }
+  }
+  &__Summary {
+    font-size: 2rem;
+    color: $color-grey;
+    // grid-row: 1 / -1;
+    grid-column: 1 / -1;
+  }
+}
+
+/**************** Footer Component **************/
+.footer {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.6rem;
+  grid-column: 1 / -1;
+}
+.footer a {
+  font-size: 1.5rem;
+  color: $color-blue;
+}
