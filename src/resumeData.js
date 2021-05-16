@@ -96,7 +96,24 @@ export const certifications = [
     path: SLGAI,
   },
 ];
-// export const
+export const edDtls = [
+  {
+    degreeName: "Bachelor's of Technology",
+    instituteName: "SASTRA Unversity",
+    location: "Thanjavur",
+    fromDate: "07/2013",
+    toDate: "05/2017",
+    specialisation: "Electronics and Communications",
+  },
+  {
+    degreeName: "Bachelor's of Technology",
+    instituteName: "SASTRA Unversity",
+    location: "Thanjavur",
+    fromDate: "07/2013",
+    toDate: "05/2017",
+    specialisation: "Electronics and Communications",
+  },
+];
 // export const
 // export const
 // export const
