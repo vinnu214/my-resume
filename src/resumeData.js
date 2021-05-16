@@ -71,7 +71,7 @@ export const certifications = [
     name: "Applause Award",
     yearOfRelease: "2019",
     certSummary:
-      "Received this award for handling multiple projects simultaneously as an individual",
+      "Received this award for handling multiple projects simultaneously as an individual.",
     path: Applause,
   },
   {
