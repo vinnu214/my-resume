@@ -106,12 +106,12 @@ export const edDtls = [
     specialisation: "Electronics and Communications",
   },
   {
-    degreeName: "Bachelor's of Technology",
-    instituteName: "SASTRA Unversity",
-    location: "Thanjavur",
-    fromDate: "07/2013",
-    toDate: "05/2017",
-    specialisation: "Electronics and Communications",
+    degreeName: "Intermediate",
+    instituteName: "Narayana Jr.College",
+    location: "Nellore",
+    fromDate: "06/2011",
+    toDate: "05/2013",
+    specialisation: "MPC",
   },
 ];
 // export const
