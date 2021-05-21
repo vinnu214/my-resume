@@ -1,0 +1,40 @@
+/********** Description Component CSS ************/
+.Description {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-right: 2rem;
+  padding: 2.5rem;
+  &__Summary {
+    font-size: 2rem;
+    grid-column: 1 / -1;
+    & > strong {
+      font-size: 2rem;
+    }
+  }
+}
+
+.Details__Communication {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 1.5rem;
+  justify-content: end;
+  justify-items: end;
+}
+.grid-comm {
+  display: grid;
+  grid-template-columns: max-content 20px;
+  align-items: center;
+  & > * {
+    font-size: 2rem;
+    color: $color-black;
+    text-decoration: none;
+  }
+}
+
+.icon {
+  margin: 0.3rem 0 0 0.5rem;
+  height: 2rem;
+  width: 2rem;
+}

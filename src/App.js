@@ -4,20 +4,25 @@ import Footer from "components/Footer";
 import Skills from "components/Skills";
 import WorkExperience from "components/WorkExperience";
 import Certifications from "components/Certifications";
+import Education from "components/Education";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <Description />
-      <div>
-        <WorkExperience />
-      </div>
-      <div>
-        <Skills />
-        <Certifications />
+    <React.Fragment>
+      <div className="App">
+        <Description />
+        <div>
+          <WorkExperience />
+          <Education />
+        </div>
+        <div>
+          <Skills />
+          <Certifications />
+        </div>
       </div>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

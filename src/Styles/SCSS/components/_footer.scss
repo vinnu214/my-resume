@@ -1,0 +1,64 @@
+/**************** Footer Component **************/
+.Footer {
+  width: 100%;
+  height: 15rem;
+  font-size: 1.6rem;
+  grid-column: 1 / -1;
+  padding: 1rem 2rem;
+  @media screen and (max-width: 1024px) {
+    // visibility: hidden;
+    position: fixed;
+    bottom: 0;
+  }
+  &__Copyrights {
+    font-size: 1.75rem;
+    text-align: center;
+    position: relative;
+    bottom: -7.5rem;
+  }
+
+  & a {
+    font-size: 1.5rem;
+    color: $color-white;
+    font-weight: bold;
+    padding: 0 0 0.5rem;
+  }
+
+  & img {
+    height: 2rem;
+    width: 15rem;
+  }
+  background-color: $color-blue;
+  color: $color-white;
+
+  @media print {
+    visibility: hidden;
+  }
+  & hr {
+    position: relative;
+    bottom: -7rem;
+    width: 75vw;
+    margin: 0 auto;
+  }
+}
+
+.FlatIcon {
+  $FC: &;
+
+  &__Container {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 100px auto;
+    &:hover #{$FC}__Content {
+      opacity: 1;
+      transform: translateX(5rem);
+    }
+  }
+  &__Content {
+    opacity: 0;
+    transform: translateX(-25rem);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    transition: all 1s;
+  }
+}

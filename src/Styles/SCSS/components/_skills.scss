@@ -1,0 +1,17 @@
+/**************** Skills Component **************/
+
+.Skill__name {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+.Skills__container {
+  margin: 2rem 1rem;
+  & span {
+    margin: 10rem 1rem;
+  }
+}

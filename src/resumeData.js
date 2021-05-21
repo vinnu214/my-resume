@@ -31,18 +31,18 @@ export const WorkExperiences = [
       " Received Appreciations and awards from Organization and Client for handling multiple projects.",
     ],
   },
-  {
-    designation: "Analyst",
-    company: "DBS",
-    startDate: "06/2021",
-    endDate: "",
-    location: "Hyderabad",
-    rolesandResp: [
-      "Developed responsive web and mobile apps using ReactJS and Angular Frameworks.",
-      "Involved in analysis of business and technical requirement discussions.",
-      "Involved in documenting and attaching the unit test results in JIRA.",
-    ],
-  },
+  // {
+  //   designation: "Analyst",
+  //   company: "DBS",
+  //   startDate: "06/2021",
+  //   endDate: "",
+  //   location: "Hyderabad",
+  //   rolesandResp: [
+  //     "Developed responsive web and mobile apps using ReactJS and Angular Frameworks.",
+  //     "Involved in analysis of business and technical requirement discussions.",
+  //     "Involved in documenting and attaching the unit test results in JIRA.",
+  //   ],
+  // },
 ];
 export const Skills = [
   "React JS",
@@ -102,6 +102,8 @@ export const edDtls = [
     instituteName: "SASTRA Unversity",
     location: "Thanjavur",
     fromDate: "07/2013",
+    isGPA: true,
+    score: 7.489,
     toDate: "05/2017",
     specialisation: "Electronics and Communications",
   },
@@ -112,6 +114,15 @@ export const edDtls = [
     fromDate: "06/2011",
     toDate: "05/2013",
     specialisation: "MPC",
+    score: 96.6,
+  },
+  {
+    degreeName: "SSC",
+    instituteName: "Navodaya E.M High School",
+    location: "Naidupeta",
+    fromDate: "05/2010",
+    toDate: "04/2011",
+    score: 86,
   },
 ];
 // export const

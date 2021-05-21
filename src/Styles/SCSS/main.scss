@@ -1,5 +1,19 @@
 @import "utils";
 @import "colors";
 @import "typography";
-
-@import "components";
+/********************** General CSS  ************/
+@import "general";
+/********** Description Component CSS ************/
+@import "components/description";
+/************ Heading Component *****************/
+@import "components/heading";
+/************ Work Experience Component ************/
+@import "components/work-experience";
+/**************** Education Details Component ******/
+@import "components/education";
+/**************** Skills Component **************/
+@import "components/skills";
+/**************** Certificate Component **********/
+@import "components/certificate";
+/**************** Footer Component **************/
+@import "components/footer";

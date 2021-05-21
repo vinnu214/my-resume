@@ -1,0 +1,7 @@
+/************ Heading Component *****************/
+.Heading {
+  border-bottom: 0.5rem solid $color-blue;
+  & > h2 {
+    margin-left: 3rem;
+  }
+}

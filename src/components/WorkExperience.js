@@ -6,10 +6,10 @@ function WorkExperience() {
   return (
     <div className="WE text">
       <Heading heading="Work Experience" />
-      <ul className="pl-5  WE__style-ul">
+      <ul className="pl-7  WE__style-ul">
         {WEArr.map((el, bINd) => {
           return (
-            <li key={bINd} className="WE__style-mainli">
+            <li key={bINd} className="WE__style-mainli list">
               <p className="WE__style-designation">{el.designation}</p>
               <p className="WE__style-company">{el.company}</p>
               <div className="WE__style-duration">

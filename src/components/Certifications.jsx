@@ -16,7 +16,7 @@ function Certifications() {
       <Heading heading="Achievements & Awards" />
       <ul className="Certificate__Container">
         {Certs.map((Certificate,idx) => (
-          <li className="Certificate__Sub-Container Certificate__li" key={idx}>
+          <li className="Certificate__Sub-Container list Certificate__li " key={idx}>
             <div className="text__Certificate  Certificate__Heading">
               {Certificate.name} ({Certificate.yearOfRelease})
             </div>
