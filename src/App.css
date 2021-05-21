@@ -20,7 +20,7 @@
 
 /********************** General CSS  ************/
 /********************** General CSS  ************/
-.App { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5rem; margin-bottom: 5rem; }
+.App { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5rem; margin-bottom: 15rem; }
 
 .list { list-style: none; height: auto; position: relative; }
 
@@ -126,9 +126,9 @@
 
 /**************** Footer Component **************/
 /**************** Footer Component **************/
-.Footer { width: 100%; height: 15rem; font-size: 1.6rem; grid-column: 1 / -1; padding: 1rem 2rem; background-color: #4685c6; color: #fff; }
+.Footer { width: 100%; height: 15rem; font-size: 1.6rem; grid-column: 1 / -1; padding: 1rem 2rem; z-index: 999; background-color: #4685c6; color: #fff; }
 
-@media screen and (max-width: 1024px) { .Footer { position: fixed; bottom: 0; } }
+@media screen and (max-width: 480px) { .Footer { position: fixed; bottom: 0; } }
 
 .Footer__Copyrights { font-size: 1.75rem; text-align: center; position: relative; bottom: -7.5rem; }
 

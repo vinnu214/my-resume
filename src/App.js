@@ -3,7 +3,7 @@ import Description from "components/Description";
 import Footer from "components/Footer";
 import Skills from "components/Skills";
 import WorkExperience from "components/WorkExperience";
-import Certifications from "components/Certifications";
+import Achievements from "components/Achievements";
 import Education from "components/Education";
 import React from "react";
 
@@ -18,7 +18,7 @@ function App() {
         </div>
         <div>
           <Skills />
-          <Certifications />
+          <Achievements />
         </div>
       </div>
       <Footer />
