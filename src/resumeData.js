@@ -2,6 +2,7 @@ import Applause from "Images/Certificates/Applause_Award.pdf";
 import FPA from "Images/Certificates/Fresco_Play_Miles_Award.pdf";
 import SLGAH from "Images/Certificates/Star_Of_the_Learners_Group_Award_Hackathon.pdf";
 import SLGAI from "Images/Certificates/Star_Of_the_Learners_Group_Award_ILP.pdf";
+import Cert_RJC from "Images/Certificates/ReactJS__Certificate.pdf";
 
 export const name = "Gnanavinay Murarisetty";
 export const currDesignation = "Frontend Developer";
@@ -60,7 +61,7 @@ export const Skills = [
   "Cordova",
 ];
 
-export const certifications = [
+export const AchievementsList = [
   {
     name: "TCS Digital Cadre",
     yearOfRelease: "2020",
@@ -123,6 +124,20 @@ export const edDtls = [
     fromDate: "05/2010",
     toDate: "04/2011",
     score: 86,
+  },
+];
+export const certificationsList = [
+  {
+    name: "React JS Certified Developer",
+    completionDate: "02/2021",
+    instituteName: "V Skills",
+    path: Cert_RJC,
+  },
+  {
+    name: "React JS Certified Developer",
+    completionDate: "02/2021",
+    instituteName: "V Skills",
+    path: Cert_RJC,
   },
 ];
 // export const

@@ -6,6 +6,7 @@ import WorkExperience from "components/WorkExperience";
 import Achievements from "components/Achievements";
 import Education from "components/Education";
 import React from "react";
+import Cerifications from "components/Cerifications";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Description />
         <div>
           <WorkExperience />
+          <Cerifications />
           <Education />
         </div>
         <div>

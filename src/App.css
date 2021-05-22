@@ -108,11 +108,29 @@
 
 .Skills__container span { margin: 10rem 1rem; }
 
+/**************** Achievements Component **********/
+/**************** Certificate Component **********/
+.Achievement__Container { margin: 2.5rem 5rem; }
+
+.Achievement__Sub-Container { margin: 1.5rem 0; display: grid; grid-template-columns: 70% repeat(2, 3rem); justify-content: space-between; }
+
+.Achievement__li { position: relative; }
+
+.Achievement__li:not(:last-child)::after { top: 3rem; }
+
+.Achievement__Img, .Achievement__Link { height: 3rem; cursor: pointer; }
+
+@media print { .Achievement__Img, .Achievement__Link { visibility: hidden; } }
+
+.Achievement__Summary { font-size: 2rem; color: #858585; grid-column: 1 / -1; }
+
 /**************** Certificate Component **********/
 /**************** Certificate Component **********/
-.Certificate__Container { margin: 2.5rem 5rem; }
+.Certificate__Container { margin: 2.5rem 0; }
 
 .Certificate__Sub-Container { margin: 1.5rem 0; display: grid; grid-template-columns: 70% repeat(2, 3rem); justify-content: space-between; }
+
+@media print { .Certificate__Sub-Container { grid-template-columns: 1fr; } }
 
 .Certificate__li { position: relative; }
 
@@ -120,9 +138,13 @@
 
 .Certificate__Img, .Certificate__Link { height: 3rem; cursor: pointer; }
 
-@media print { .Certificate__Img, .Certificate__Link { visibility: hidden; } }
+@media print { .Certificate__Img, .Certificate__Link { display: none; } }
 
-.Certificate__Summary { font-size: 2rem; color: #858585; grid-column: 1 / -1; }
+.Certificate__Details { display: flex; justify-content: space-between; margin-top: 1rem; }
+
+.Certificate__institute { font-size: 2.5rem; font-style: italic; color: #677583; }
+
+.Certificate__Date { font-size: 2rem; font-style: italic; align-self: center; color: #376ca5; }
 
 /**************** Footer Component **************/
 /**************** Footer Component **************/

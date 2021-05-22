@@ -1,13 +1,16 @@
 /**************** Certificate Component **********/
 .Certificate {
   &__Container {
-    margin: 2.5rem 5rem;
+    margin: 2.5rem 0;
   }
   &__Sub-Container {
     margin: 1.5rem 0;
     display: grid;
     grid-template-columns: 70% repeat(2, 3rem);
     justify-content: space-between;
+    @media print {
+      grid-template-columns: 1fr;
+    }
   }
   &__li {
     position: relative;
@@ -20,12 +23,24 @@
     height: 3rem;
     cursor: pointer;
     @media print {
-      visibility: hidden;
+      // visibility: hidden;
+      display: none;
     }
   }
-  &__Summary {
+  &__Details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  &__institute {
+    font-size: 2.5rem;
+    font-style: italic;
+    color: $color-secondary-black;
+  }
+  &__Date {
     font-size: 2rem;
-    color: $color-grey;
-    grid-column: 1 / -1;
+    font-style: italic;
+    align-self: center;
+    color: $color-light-blue;
   }
 }
