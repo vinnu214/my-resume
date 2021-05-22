@@ -133,12 +133,6 @@ export const certificationsList = [
     instituteName: "V Skills",
     path: Cert_RJC,
   },
-  {
-    name: "React JS Certified Developer",
-    completionDate: "02/2021",
-    instituteName: "V Skills",
-    path: Cert_RJC,
-  },
 ];
 // export const
 // export const

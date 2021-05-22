@@ -14,7 +14,7 @@ function Cerifications() {
   return (
     <React.Fragment>
       <Heading heading="Certifications" />
-      <ul className="Certificate__Container">
+      <ul className="Certificate__Container pl-7">
         {Certs.map((Certificate, idx) => (
           <li
             className="Certificate__Sub-Container list Certificate__li "
