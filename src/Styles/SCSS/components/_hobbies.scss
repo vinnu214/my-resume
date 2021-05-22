@@ -1,0 +1,15 @@
+/**************** Hobbies Component **************/
+
+.Hobbie__name {
+  border: 1px solid $color-grey;
+  color: $color-grey;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem $color-grey;
+  padding: 0.5rem 1.5rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+.Hobbies__container {
+  margin: 2rem 1rem;
+}

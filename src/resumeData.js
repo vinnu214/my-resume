@@ -134,8 +134,17 @@ export const certificationsList = [
     path: Cert_RJC,
   },
 ];
-// export const
-// export const
+export const toolsUsed = [
+  "VS Code",
+  "Eclipse",
+  "Android Studio",
+  "X-CODE",
+  "Cordova CLI",
+  "Angular CLI",
+  "Tortoise SVN",
+  "GIT Bash",
+];
+export const hobbies = ["Cricket", "Badminton", "Cooking", "Travelling"];
 // export const
 // export const
 // export const

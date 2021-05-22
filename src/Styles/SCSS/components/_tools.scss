@@ -1,0 +1,16 @@
+/**************** Tools Component **************/
+
+.Tool__name {
+  border: 1px solid $color-blue;
+  color: $color-blue;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem $color-light-blue;
+  padding: 0.5rem 1.5rem;
+  margin: 0.75rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.Tools__container {
+  margin: 2rem 1rem;
+  grid-column: 1 / -1;
+}
