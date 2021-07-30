@@ -32,18 +32,18 @@ export const WorkExperiences = [
       " Received Appreciations and awards from Organization and Client for handling multiple projects.",
     ],
   },
-  // {
-  //   designation: "Analyst",
-  //   company: "DBS",
-  //   startDate: "06/2021",
-  //   endDate: "",
-  //   location: "Hyderabad",
-  //   rolesandResp: [
-  //     "Developed responsive web and mobile apps using ReactJS and Angular Frameworks.",
-  //     "Involved in analysis of business and technical requirement discussions.",
-  //     "Involved in documenting and attaching the unit test results in JIRA.",
-  //   ],
-  // },
+  {
+    designation: "Analyst",
+    company: "DBS",
+    startDate: "06/2021",
+    endDate: "",
+    location: "Hyderabad",
+    rolesandResp: [
+      "Developing responsive web and mobile apps using ReactJS.",
+      "Involved in analysis of business and technical requirement discussions.",
+      "Involved in documenting and attaching the unit test results in JIRA.",
+    ],
+  },
 ];
 export const Skills = [
   "React JS",
@@ -58,6 +58,7 @@ export const Skills = [
   "JEST",
   "Enzyme",
   "NPM",
+  "GIT",
   "Cordova",
 ];
 
@@ -143,6 +144,7 @@ export const toolsUsed = [
   "Angular CLI",
   "Tortoise SVN",
   "GIT Bash",
+  "Source Tree",
 ];
 export const hobbies = ["Cricket", "Badminton", "Cooking", "Travelling"];
 // export const
