@@ -11,7 +11,7 @@ export const mobileNum = "+918110806258";
 export const location = "HYDERABAD, INDIA";
 export const linkedIn = {
   displayName: "Gnanavinay Murarisetty",
-  url: "https://www.linkedin.com/in/%F0%9D%91%AE%F0%9D%92%8F%F0%9D%92%82%F0%9D%92%8F%F0%9D%92%82%F0%9D%92%97%F0%9D%92%8A%F0%9D%92%8F%F0%9D%92%82%F0%9D%92%9A-%F0%9D%91%B4%F0%9D%92%96%F0%9D%92%93%F0%9D%92%82%F0%9D%92%93%F0%9D%92%8A%F0%9D%92%94%F0%9D%92%86%F0%9D%92%95%F0%9D%92%95%F0%9D%92%9A-a1a723129/",
+  url: "https://bit.ly/38OCe3H",
 };
 export const WorkExperiences = [
   {
@@ -47,16 +47,18 @@ export const WorkExperiences = [
 ];
 export const Skills = [
   "React JS",
-  "Redux",
   "Angular",
   "Angular JS",
   "Javascript",
+  "Typescript",
   "HTML5",
   "CSS3",
   "JAVA",
   "SASS",
+  "Redux",
   "JEST",
   "Enzyme",
+  "React Testing Library",
   "NPM",
   "GIT",
   "Cordova",
