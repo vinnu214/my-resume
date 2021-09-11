@@ -6,11 +6,13 @@ import { hobbies as HobbiesArr } from "resumeData";
 function Hobbies() {
   return (
     <div>
-      <div className="Hobbies">
+      <div className="Hobbies" data-aos="fade-left">
         <Heading heading="Interests" />
         <div className="Hobbies__container">
           {HobbiesArr.map((el, idx) => (
-            <Hobbie HobbieName={el} key={idx} />
+            <span data-aos="fade-left" data-aos-delay={(idx + 1) * 100}>
+              <Hobbie HobbieName={el} key={idx} />
+            </span>
           ))}
         </div>
       </div>

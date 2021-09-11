@@ -11,15 +11,31 @@ function Description() {
   return (
     <div className="Description">
       <div className="Details__Basic">
-        <div className="text__applicant">{ApplicantData.name}</div>
-        <div className="text__designation">{ApplicantData.currDesignation}</div>
+        <div className="text__applicant" data-aos="fade-left">
+          {ApplicantData.name}
+        </div>
+        <div
+          className="text__designation"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          {ApplicantData.currDesignation}
+        </div>
       </div>
       <div className="Details__Communication">
-        <div className="email grid-comm">
+        <div
+          className="email grid-comm"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
           <a href={"mailto:" + ApplicantData.mailId}>{ApplicantData.mailId}</a>
           <img className="icon" src={icon_email} alt="email" />
         </div>
-        <div className="mobile grid-comm">
+        <div
+          className="mobile grid-comm"
+          data-aos="fade-right"
+          data-aos-delay="600"
+        >
           <a href={"tel:" + ApplicantData.mobileNum}>
             {ApplicantData.mobileNum.split("").splice(0, 3).join("") +
               " " +
@@ -30,11 +46,19 @@ function Description() {
           </a>
           <img className="icon" src={icon_mobile} alt="mobile" />
         </div>
-        <div className="location grid-comm">
+        <div
+          className="location grid-comm"
+          data-aos="fade-right"
+          data-aos-delay="800"
+        >
           <p>{ApplicantData.location}</p>
           <img className="icon" src={icon_location} alt="location" />
         </div>
-        <div className="linkedIn grid-comm">
+        <div
+          className="linkedIn grid-comm"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+        >
           <a href={ApplicantData.linkedIn.url}>
             {ApplicantData.linkedIn.displayName}
           </a>

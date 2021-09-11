@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer" data-aos="fade-up">
       <div className="FlatIcon__Container">
         <img
           src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg"

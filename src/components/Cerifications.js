@@ -12,7 +12,7 @@ const openCertificate = (Cert) => {
 
 function Cerifications() {
   return (
-    <React.Fragment>
+    <div data-aos="fade-right">
       <Heading heading="Certifications" />
       <ul className="Certificate__Container pl-7">
         {Certs.map((Certificate, idx) => (
@@ -51,7 +51,7 @@ function Cerifications() {
           </li>
         ))}
       </ul>
-    </React.Fragment>
+    </div>
   );
 }
 

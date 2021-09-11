@@ -12,23 +12,55 @@ const openCertificate =(Cert)=>{
 
 function Achievements() {
   return (
-    <React.Fragment>
+    <div data-aos="fade-left" data-aos-delay="2800">
       <Heading heading="Achievements & Awards" />
       <ul className="Achievement__Container">
-        {AchievementsList.map((Certificate,idx) => (
-          <li className="Achievement__Sub-Container list Achievement__li " key={idx}>
-            <div className="text__Certificate  Achievement__Heading">
+        {AchievementsList.map((Certificate, idx) => (
+          <li
+            className="Achievement__Sub-Container list Achievement__li "
+            key={idx}
+            data-aos="fade-left"
+            data-aos-delay={(idx + 1) * 100}
+          >
+            <div
+              className="text__Certificate  Achievement__Heading"
+              data-aos="fade-left"
+            >
               {Certificate.name} ({Certificate.yearOfRelease})
             </div>
-              {Certificate.path ?<a href={Certificate.path}  download={Certificate.name}><img className="Achievement__Link"  src={Icon__Download} alt='Download' /></a>:null}
-              {Certificate.path ?<img className="Achievement__Img" alt="Certificate" src={Icon__Certificate}  onClick={()=>{openCertificate(Certificate) }} />:null}
-            <div className="text__Certificate Achievement__Summary">
+            {Certificate.path ? (
+              <a href={Certificate.path} download={Certificate.name}>
+                <img
+                  className="Achievement__Link"
+                  data-aos-delay="1000"
+                  data-aos="fade-down"
+                  src={Icon__Download}
+                  alt="Download"
+                />
+              </a>
+            ) : null}
+            {Certificate.path ? (
+              <img
+                className="Achievement__Img"
+                data-aos-delay="1000"
+                data-aos="fade-down"
+                alt="Certificate"
+                src={Icon__Certificate}
+                onClick={() => {
+                  openCertificate(Certificate);
+                }}
+              />
+            ) : null}
+            <div
+              className="text__Certificate Achievement__Summary"
+              data-aos="fade-left"
+            >
               {Certificate.certSummary}
             </div>
           </li>
         ))}
       </ul>
-    </React.Fragment>
+    </div>
   );
 }
 
