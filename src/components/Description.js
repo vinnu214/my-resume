@@ -65,7 +65,11 @@ function Description() {
           <img className="icon" src={icon_linkedIn} alt="linkedIn" />
         </div>
       </div>
-      <div className="Description__Summary">
+      <div
+        className="Description__Summary"
+        data-aos="fade-down"
+        data-aos-delay="700"
+      >
         Knowledgeable Frontend developer with <strong>3+</strong> years of
         experience who adept at creating web and mobile applications which meet
         customer needs. Specialized in collaborating with customers to gather
