@@ -70,7 +70,7 @@ function Description() {
         data-aos="fade-down"
         data-aos-delay="700"
       >
-        Knowledgeable Frontend developer with <strong>3+</strong> years of
+        Knowledgeable Frontend developer with <strong>4+</strong> years of
         experience who adept at creating web and mobile applications which meet
         customer needs. Specialized in collaborating with customers to gather
         requirements, produce plans and improve designs for usability and

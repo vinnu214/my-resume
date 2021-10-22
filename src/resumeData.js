@@ -21,7 +21,7 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Developed responsive web and mobile apps using ReactJS and Angular Frameworks.",
+      "Developed responsive web and mobile apps using Angular Frameworks.",
       "Involved in analysis of business and technical requirement discussions.",
       "Involved in documenting and attaching the unit test results in JIRA.",
       "Developed and Launched new web applications for different geographies to onboard their customers digitally.",
@@ -42,6 +42,8 @@ export const WorkExperiences = [
       "Developing responsive web and mobile apps using ReactJS.",
       "Involved in analysis of business and technical requirement discussions.",
       "Involved in documenting and attaching the unit test results in JIRA.",
+      "Involved in Demo presentations to clients",
+      "Conducted React JS training sessions",
     ],
   },
 ];
