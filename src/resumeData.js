@@ -42,7 +42,7 @@ export const WorkExperiences = [
       "Developing responsive web and mobile apps using ReactJS.",
       "Involved in analysis of business and technical requirement discussions.",
       "Involved in documenting and attaching the unit test results in JIRA.",
-      "Given Demo presentations to customers",
+      "Presented Demos to customers",
       "Conducted React JS training sessions",
     ],
   },
