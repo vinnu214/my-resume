@@ -3,6 +3,7 @@ import FPA from "Images/Certificates/Fresco_Play_Miles_Award.pdf";
 import SLGAH from "Images/Certificates/Star_Of_the_Learners_Group_Award_Hackathon.pdf";
 import SLGAI from "Images/Certificates/Star_Of_the_Learners_Group_Award_ILP.pdf";
 import Cert_RJC from "Images/Certificates/ReactJS__Certificate.pdf";
+import RockStar from "Images/Certificates/Peer Recognition-Gnanavinay MURARISETTY-Rockstar Rookie.pdf";
 
 export const name = "Gnanavinay Murarisetty";
 export const currDesignation = "Frontend Developer";
@@ -14,6 +15,20 @@ export const linkedIn = {
   url: "https://bit.ly/38OCe3H",
 };
 export const WorkExperiences = [
+  {
+    designation: "Analyst",
+    company: "DBS",
+    startDate: "06/2021",
+    endDate: "",
+    location: "Hyderabad",
+    rolesandResp: [
+      "Developing responsive web and mobile apps using ReactJS.",
+      "Involved in analysis of business and technical requirement discussions.",
+      "Involved in documenting and attaching the unit test results in JIRA.",
+      "Presented Demos to customers",
+      "Conducted React JS training sessions",
+    ],
+  },
   {
     designation: "Systems Engineer",
     company: "TATA Consultancy Services",
@@ -30,20 +45,6 @@ export const WorkExperiences = [
       "Suggested Improvements to Clients for smooth and great User Experience wherever needed.",
       "Delivered few POCs on Cross Adapter Communication, Progressive Web Apps Successfully.",
       " Received Appreciations and awards from Organization and Client for handling multiple projects.",
-    ],
-  },
-  {
-    designation: "Analyst",
-    company: "DBS",
-    startDate: "06/2021",
-    endDate: "",
-    location: "Hyderabad",
-    rolesandResp: [
-      "Developing responsive web and mobile apps using ReactJS.",
-      "Involved in analysis of business and technical requirement discussions.",
-      "Involved in documenting and attaching the unit test results in JIRA.",
-      "Presented Demos to customers",
-      "Conducted React JS training sessions",
     ],
   },
 ];
@@ -67,6 +68,14 @@ export const Skills = [
 ];
 
 export const AchievementsList = [
+  {
+    name: "Peer Recognition Award",
+    yearOfRelease: "2021",
+    certSummary:
+      "Received this award for my outstanding performance and contribution to the company.",
+    path: RockStar,
+  },
+
   {
     name: "TCS Digital Cadre",
     yearOfRelease: "2020",
