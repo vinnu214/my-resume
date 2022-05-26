@@ -16,10 +16,21 @@ export const linkedIn = {
 };
 export const WorkExperiences = [
   {
+    designation: "Senior Software Engineer",
+    company: "Freshworks",
+    startDate: "04/2022",
+    endDate: "",
+    location: "Hyderabad",
+    rolesandResp: [
+      "Developing responsive web applications using Ember JS",
+      "Working as a frontend developer for Freshservice Product in Freshworks",
+    ],
+  },
+  {
     designation: "Analyst",
     company: "DBS",
     startDate: "06/2021",
-    endDate: "",
+    endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
       "Developing responsive web and mobile apps using ReactJS.",
@@ -52,6 +63,7 @@ export const Skills = [
   "React JS",
   "Angular",
   "Angular JS",
+  "Ember JS",
   "Javascript",
   "Typescript",
   "HTML5",
