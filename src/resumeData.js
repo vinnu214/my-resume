@@ -22,8 +22,14 @@ export const WorkExperiences = [
     endDate: "",
     location: "Hyderabad",
     rolesandResp: [
-      "Developing responsive web applications using Ember JS",
       "Working as a frontend developer for Freshservice Product in Freshworks",
+      "Developing responsive web applications using Ember JS",
+      "Created multiple re-usable components which enables other devs to use it seemlessly",
+      "Delivered multiple features with high level of code quality",
+      "Guided juniors in javascript and EmberJS Framework",
+      "Experience in Agile Methodology, Debugging tools like Chrome Dev Tools, Ember Inspector, etc.",
+      "Code reviewer for multiple products/teams.",
+      "Stood among the top 3 in org level hackathons"
     ],
   },
   {
@@ -55,15 +61,15 @@ export const WorkExperiences = [
       "Created few components which can be used across multiple projects.",
       "Suggested Improvements to Clients for smooth and great User Experience wherever needed.",
       "Delivered few POCs on Cross Adapter Communication, Progressive Web Apps Successfully.",
-      " Received Appreciations and awards from Organization and Client for handling multiple projects.",
+      "Received Appreciations and awards from Organization and Client for handling multiple projects.",
     ],
   },
 ];
 export const Skills = [
   "React JS",
+  "Ember JS",
   "Angular",
   "Angular JS",
-  "Ember JS",
   "Javascript",
   "Typescript",
   "HTML5",
@@ -71,15 +77,25 @@ export const Skills = [
   "JAVA",
   "SASS",
   "Redux",
+  "React Testing Library",
   "JEST",
   "Enzyme",
-  "React Testing Library",
   "NPM",
   "GIT",
   "Cordova",
 ];
 
 export const AchievementsList = [
+  {
+    name: "Hackathon Runner",
+    yearOfRelease: "2023",
+    certSummary:"Stood Second place in organization level Hackathon"
+  },
+  {
+    name: "Hackathon Winner",
+    yearOfRelease: "2022",
+    certSummary:"Stood First place in organization level Hackathon"
+  },
   {
     name: "Peer Recognition Award",
     yearOfRelease: "2021",
@@ -162,6 +178,7 @@ export const certificationsList = [
 ];
 export const toolsUsed = [
   "VS Code",
+  "Github Desktop",
   "Eclipse",
   "Android Studio",
   "X-CODE",
