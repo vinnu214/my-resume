@@ -23,11 +23,9 @@ export const WorkExperiences = [
     location: "Hyderabad",
     rolesandResp: [
       "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
-      "Built responsive web applications using Ember.js, collaborating with cross-functional teams to deliver high-quality software aligned with user requirements.",
       "Created reusable components to streamline development processes and improve overall efficiency for other developers.",
       "Delivered multiple features with high level of code quality",
       "Mentored junior developers in JavaScript and Ember.js, fostering their growth and technical proficiency",
-      "Experienced in Agile Methodology and proficient in debugging tools such as Chrome Dev Tools and Ember Inspector.",
       "Conducted code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
       "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
     ],
@@ -39,11 +37,9 @@ export const WorkExperiences = [
     endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
-      "Developed responsive web and mobile applications using ReactJS.",
-      "Analyzed business and technical requirements to inform development processes.",
+      "Crafted responsive web and mobile applications using ReactJS.",
       "Documented unit test results in JIRA for tracking and quality assurance purposes.",
       "Presented demos to customers to showcase application features and gather feedback.",
-      "Conducted React JS training sessions",
       "Implemented unit tests using React Testing Library to validate application functionality and enhance code quality.",
       "Performed detailed code reviews, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
     ],
@@ -56,7 +52,7 @@ export const WorkExperiences = [
     location: "Hyderabad",
     rolesandResp: [
       "Developed responsive web and mobile apps.",
-      "Developed and launched new web applications for various geographical locations to enhance digital customer onboarding.",
+      "Engineered and launched new web applications for various geographical locations to enhance digital customer onboarding.",
       "Led daily client meetings to ensure transparent communication and project success.",
       "Suggested improvements to clients to enhance user experience and application performance.",
       "Delivered successful Proof of Concepts (POCs) on Cross Adapter Communication and Progressive Web Apps.",
@@ -113,7 +109,7 @@ export const AchievementsList = [
     name: "Applause Award",
     yearOfRelease: "2019",
     certSummary:
-      "Received this award for successfully managing multiple projects simultaneously as an individual contributor.",
+      "Achieved this award for successfully managing multiple projects simultaneously as an individual contributor.",
     path: Applause,
   },
   {
@@ -127,14 +123,14 @@ export const AchievementsList = [
     name: "Star Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received recognition for exceptional performance in the TCS Global Hackathon 2018.",
+      "Received recognition for outstanding performance in the TCS Global Hackathon 2018.",
     path: SLGAH,
   },
   {
     name: "Best Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received recognition for exceptional performance during the training period.",
+      "Received award for exceptional performance during the training period.",
     path: SLGAI,
   },
 ];
@@ -149,23 +145,23 @@ export const edDtls = [
     toDate: "05/2017",
     specialisation: "Electronics and Communications",
   },
-  {
-    degreeName: "Intermediate",
-    instituteName: "Narayana Jr.College",
-    location: "Nellore",
-    fromDate: "06/2011",
-    toDate: "05/2013",
-    specialisation: "MPC",
-    score: 96.6,
-  },
-  {
-    degreeName: "SSC",
-    instituteName: "Navodaya E.M High School",
-    location: "Naidupeta",
-    fromDate: "05/2010",
-    toDate: "04/2011",
-    score: 86,
-  },
+  // {
+  //   degreeName: "Intermediate",
+  //   instituteName: "Narayana Jr.College",
+  //   location: "Nellore",
+  //   fromDate: "06/2011",
+  //   toDate: "05/2013",
+  //   specialisation: "MPC",
+  //   score: 96.6,
+  // },
+  // {
+  //   degreeName: "SSC",
+  //   instituteName: "Navodaya E.M High School",
+  //   location: "Naidupeta",
+  //   fromDate: "05/2010",
+  //   toDate: "04/2011",
+  //   score: 86,
+  // },
 ];
 export const certificationsList = [
   {

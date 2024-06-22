@@ -29,7 +29,7 @@ function App() {
           <Skills />
           <Tools />
           <Achievements />
-          <Hobbies />
+          {/* <Hobbies /> */}
         </div>
       </div>
       <Footer />
