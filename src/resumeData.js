@@ -37,7 +37,7 @@ export const WorkExperiences = [
     endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
-      "Crafted responsive web and mobile applications using ReactJS.",
+      "Crafted responsive web applications using ReactJS.",
       "Documented unit test results in JIRA for tracking and quality assurance purposes.",
       "Presented demos to customers to showcase application features and gather feedback.",
       "Implemented unit tests using React Testing Library to validate application functionality and enhance code quality.",
@@ -51,7 +51,7 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Developed responsive web and mobile apps.",
+      "Created mobile and web apps which are responsive ",
       "Engineered and launched new web applications for various geographical locations to enhance digital customer onboarding.",
       "Led daily client meetings to ensure transparent communication and project success.",
       "Suggested improvements to clients to enhance user experience and application performance.",
@@ -109,7 +109,7 @@ export const AchievementsList = [
     name: "Applause Award",
     yearOfRelease: "2019",
     certSummary:
-      "Achieved this award for successfully managing multiple projects simultaneously as an individual contributor.",
+      "Achieved this award for leading a cross-functional team of 4 members to deliver a critical project 20% ahead of schedule.",
     path: Applause,
   },
   {
@@ -123,14 +123,14 @@ export const AchievementsList = [
     name: "Star Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received recognition for outstanding performance in the TCS Global Hackathon 2018.",
+      "Obtained recognition for extraordinary performance in the TCS Global Hackathon 2018.",
     path: SLGAH,
   },
   {
     name: "Best Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received award for exceptional performance during the training period.",
+      "Collected award for exceptional performance during the training period.",
     path: SLGAI,
   },
 ];
