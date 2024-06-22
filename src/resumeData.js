@@ -88,18 +88,18 @@ export const AchievementsList = [
   {
     name: "Hackathon Runner",
     yearOfRelease: "2023",
-    certSummary:"Stood Second place in organization level Hackathon"
+    certSummary:"Secured second place in organization-level Hackathon through collaborative teamwork, demonstrating innovation, problem-solving skills, and technical proficiency."
   },
   {
     name: "Hackathon Winner",
     yearOfRelease: "2022",
-    certSummary:"Stood First place in organization level Hackathon"
+    certSummary:"Secured first position in BU wide Hackathon, showcasing outstanding innovation and technical skills."
   },
   {
     name: "Peer Recognition Award",
     yearOfRelease: "2021",
     certSummary:
-      "Received this award for my outstanding performance and contribution to the company.",
+      "Earned this award for outstanding performance and significant contributions to the company.",
     path: RockStar,
   },
 
@@ -107,13 +107,13 @@ export const AchievementsList = [
     name: "TCS Digital Cadre",
     yearOfRelease: "2020",
     certSummary:
-      "Promoted to the Digital cadre for my exceptional performance in TCS Internal Digital Assessment.",
+      "Promoted to the Digital cadre for outstanding performance in TCS Internal Digital Assessment.",
   },
   {
     name: "Applause Award",
     yearOfRelease: "2019",
     certSummary:
-      "Received this award for handling multiple projects simultaneously as an individual.",
+      "Received this award for successfully managing multiple projects simultaneously as an individual contributor.",
     path: Applause,
   },
   {
@@ -127,14 +127,14 @@ export const AchievementsList = [
     name: "Star Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received this award for my exceptional performance in TCS Global Hackathon 2018",
+      "Received recognition for exceptional performance in the TCS Global Hackathon 2018.",
     path: SLGAH,
   },
   {
     name: "Best Performer Award",
     yearOfRelease: "2018",
     certSummary:
-      "Received this award for my exceptional performance during training period",
+      "Received recognition for exceptional performance during the training period.",
     path: SLGAI,
   },
 ];
