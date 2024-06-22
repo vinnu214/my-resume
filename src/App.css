@@ -251,7 +251,7 @@
   margin: 2rem 1rem;
 }
 .Skills__container span {
-  margin: 10rem 1rem;
+  margin: 10rem 0.5rem;
 }
 
 /**************** Achievements Component **********/
@@ -332,6 +332,7 @@
   font-style: italic;
   align-self: center;
   color: #376ca5;
+  margin-right: 0.5rem;
 }
 
 /**************** Hobbies Component **********/
