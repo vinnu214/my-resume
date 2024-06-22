@@ -70,11 +70,13 @@ function Description() {
         data-aos="fade-down"
         data-aos-delay="700"
       >
-        Knowledgeable Frontend developer with <strong>6+</strong> years of
+        {/* Knowledgeable Frontend developer with <strong>6+</strong> years of
         experience who adept at creating web and mobile applications which meet
         customer needs. Specialized in collaborating with customers to gather
         requirements, produce plans and improve designs for usability and
-        functionality.
+        functionality. */}
+
+        Experienced software engineer with <strong>6+</strong> years in specializing in building scalable, maintainable web applications using JavaScript frameworks like React and Ember. Proven ability to deliver high-quality code through rigorous unit testing and collaborative code reviews. Passionate about crafting reusable components and implementing clean, well-documented architectures.
       </div>
     </div>
   );

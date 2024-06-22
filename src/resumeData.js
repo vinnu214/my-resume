@@ -12,7 +12,7 @@ export const mobileNum = "+918110806258";
 export const location = "HYDERABAD, INDIA";
 export const linkedIn = {
   displayName: "Gnanavinay Murarisetty",
-  url: "https://bit.ly/38OCe3H",
+  url: "https://www.linkedin.com/in/gnanavinaymurari/",
 };
 export const WorkExperiences = [
   {
@@ -22,14 +22,14 @@ export const WorkExperiences = [
     endDate: "",
     location: "Hyderabad",
     rolesandResp: [
-      "Working as a frontend developer for Freshservice Product in Freshworks",
-      "Developing responsive web applications using Ember JS",
-      "Created multiple re-usable components which enables other devs to use it seemlessly",
+      "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
+      "Built responsive web applications using Ember.js, collaborating with cross-functional teams to deliver high-quality software aligned with user requirements.",
+      "Created reusable components to streamline development processes and improve overall efficiency for other developers.",
       "Delivered multiple features with high level of code quality",
-      "Guided juniors in javascript and EmberJS Framework",
-      "Experience in Agile Methodology, Debugging tools like Chrome Dev Tools, Ember Inspector, etc.",
-      "Code reviewer for multiple products/teams.",
-      "Stood among the top 3 in org level hackathons"
+      "Mentored junior developers in JavaScript and Ember.js, fostering their growth and technical proficiency",
+      "Experienced in Agile Methodology and proficient in debugging tools such as Chrome Dev Tools and Ember Inspector.",
+      "Conducted code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
+      "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
     ],
   },
   {
@@ -39,11 +39,13 @@ export const WorkExperiences = [
     endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
-      "Developing responsive web and mobile apps using ReactJS.",
-      "Involved in analysis of business and technical requirement discussions.",
-      "Involved in documenting and attaching the unit test results in JIRA.",
-      "Presented Demos to customers",
+      "Developed responsive web and mobile applications using ReactJS.",
+      "Analyzed business and technical requirements to inform development processes.",
+      "Documented unit test results in JIRA for tracking and quality assurance purposes.",
+      "Presented demos to customers to showcase application features and gather feedback.",
       "Conducted React JS training sessions",
+      "Implemented unit tests using React Testing Library to validate application functionality and enhance code quality.",
+      "Performed detailed code reviews, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
     ],
   },
   {
@@ -53,15 +55,12 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Developed responsive web and mobile apps using Angular Frameworks.",
-      "Involved in analysis of business and technical requirement discussions.",
-      "Involved in documenting and attaching the unit test results in JIRA.",
-      "Developed and Launched new web applications for different geographies to onboard their customers digitally.",
-      "Lead Daily client meetings to foster open communication and ensure ongoing success.",
-      "Created few components which can be used across multiple projects.",
-      "Suggested Improvements to Clients for smooth and great User Experience wherever needed.",
-      "Delivered few POCs on Cross Adapter Communication, Progressive Web Apps Successfully.",
-      "Received Appreciations and awards from Organization and Client for handling multiple projects.",
+      "Developed responsive web and mobile apps.",
+      "Developed and launched new web applications for various geographical locations to enhance digital customer onboarding.",
+      "Led daily client meetings to ensure transparent communication and project success.",
+      "Suggested improvements to clients to enhance user experience and application performance.",
+      "Delivered successful Proof of Concepts (POCs) on Cross Adapter Communication and Progressive Web Apps.",
+      "Recognized with awards and appreciation from the organization and clients for managing multiple projects effectively.",
     ],
   },
 ];
