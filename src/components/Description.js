@@ -76,7 +76,10 @@ function Description() {
         requirements, produce plans and improve designs for usability and
         functionality. */}
 
-        Experienced software engineer with <strong>6+</strong> years in specializing in building scalable, maintainable web applications using JavaScript frameworks like React and Ember. Proven ability to deliver high-quality code through rigorous unit testing and collaborative code reviews. Passionate about crafting reusable components and implementing clean, well-documented architectures.
+        Experienced software engineer with <strong>6+</strong> years in specializing in building scalable, 
+        maintainable web applications using JavaScript frameworks like React and Ember. 
+        Proven ability to deliver high-quality code through rigorous unit testing and collaborative code reviews. 
+        and crafted reusable components with clean, well-documented architectures.
       </div>
     </div>
   );

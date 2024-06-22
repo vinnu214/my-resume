@@ -23,10 +23,10 @@ export const WorkExperiences = [
     location: "Hyderabad",
     rolesandResp: [
       "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
-      "Created reusable components to streamline development processes and improve overall efficiency for other developers.",
-      "Delivered multiple features with high level of code quality",
-      "Mentored junior developers in JavaScript and Ember.js, fostering their growth and technical proficiency",
-      "Conducted code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
+      "Created 5+ reusable components/utils to streamline development processes and improve overall efficiency for other developers.",
+      "Achieved a 15% increase in code coverage through effective unit test case writing, enhancing overall code quality.",
+      "Mentored junior developers in JavaScript and Ember.js, nurturing their growth and technical proficiency, resulting in a 20% increase in productivity.",
+      "Conducted several code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
       "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
     ],
   },
@@ -37,11 +37,10 @@ export const WorkExperiences = [
     endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
-      "Crafted responsive web applications using ReactJS.",
-      "Documented unit test results in JIRA for tracking and quality assurance purposes.",
+      "Designed an deployed an in-house web application for onboarding purposes in ReactJS, effectively enhancing productivity acutting down the onboarding process time by atleast 25% for new employee.",
       "Presented demos to customers to showcase application features and gather feedback.",
-      "Implemented unit tests using React Testing Library to validate application functionality and enhance code quality.",
-      "Performed detailed code reviews, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
+      "Implemented unit tests for 5 modules using React Testing Library to ensure application functionality and improve code quality.",
+      "Performed detailed code reviews for a team of 5 members, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
     ],
   },
   {
@@ -51,7 +50,6 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Created mobile and web apps which are responsive ",
       "Engineered and launched new web applications for various geographical locations to enhance digital customer onboarding.",
       "Led daily client meetings to ensure transparent communication and project success.",
       "Suggested improvements to clients to enhance user experience and application performance.",
@@ -84,7 +82,7 @@ export const AchievementsList = [
   {
     name: "Hackathon Runner",
     yearOfRelease: "2023",
-    certSummary:"Secured second place in organization-level Hackathon through collaborative teamwork, demonstrating innovation, problem-solving skills, and technical proficiency."
+    certSummary:"Secured second place in organization-level Hackathon through collaborative teamwork, demonstrating innovation and technical proficiency."
   },
   {
     name: "Hackathon Winner",
@@ -118,13 +116,6 @@ export const AchievementsList = [
     certSummary:
       "Received this award as one of the best learners in Digital Technologies",
     path: FPA,
-  },
-  {
-    name: "Star Performer Award",
-    yearOfRelease: "2018",
-    certSummary:
-      "Obtained recognition for extraordinary performance in the TCS Global Hackathon 2018.",
-    path: SLGAH,
   },
   {
     name: "Best Performer Award",
