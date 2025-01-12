@@ -13,7 +13,7 @@ const openCertificate =(Cert)=>{
 function Achievements() {
   return (
     <div data-aos="fade-left" data-aos-delay="2800">
-      <Heading heading="Achievements & Awards" />
+      <Heading heading="Achievements" />
       <ul className="Achievement__Container">
         {AchievementsList.map((Certificate, idx) => (
           <li

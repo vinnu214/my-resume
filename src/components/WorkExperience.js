@@ -5,7 +5,7 @@ import { WorkExperiences as WEArr } from "resumeData";
 function WorkExperience() {
   return (
     <div className="WE text" data-aos="fade-right">
-      <Heading heading="Work Experience" />
+      <Heading heading="Professional Experience" />
       <ul className="pl-7  WE__style-ul">
         {WEArr.map((el, bINd) => {
           return (

@@ -6,7 +6,7 @@ import { Skills as SkillsArr } from "resumeData";
 function Skills() {
   return (
     <div className="Skills" data-aos="fade-left">
-      <Heading heading="Skills" />
+      <Heading heading="Technical Skills" />
       <div className="Skills__container">
         {SkillsArr.map((el, idx) => (
           <span data-aos="fade-left" data-aos-delay={300 + (idx + 1) * 100}>
