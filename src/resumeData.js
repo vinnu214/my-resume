@@ -22,10 +22,11 @@ export const WorkExperiences = [
     endDate: "",
     location: "Hyderabad",
     rolesandResp: [
-      "Engineered a GitHub workflow to detect and convert hard-coded colors in SVG files, ensuring 100% theme compatibility and streamlining code maintainability.
-      "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
+      "Engineered a GitHub workflow to detect and convert hard-coded colors in SVG files, ensuring 100% theme compatibility and streamlining code maintainability.",
+      "Spearheaded the implementation of Stylelint to enforce SCSS rules, improving code quality by 30% and ensuring 100% adherence to consistent styling standards across the project.",
       "Created 5+ reusable components/utils to streamline development processes and improve overall efficiency for other developers.",
       "Achieved a 15% increase in code coverage through effective unit test case writing, enhancing overall code quality.",
+      "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
       "Mentored junior developers in JavaScript and Ember.js, nurturing their growth and technical proficiency, resulting in a 20% increase in productivity.",
       "Conducted several code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
       "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
