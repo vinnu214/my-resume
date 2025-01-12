@@ -175,7 +175,7 @@
   top: 0.5rem;
 }
 .WE__style-span {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-indent: -0.8rem;
 }
 .WE__style-span:before {
@@ -357,7 +357,6 @@
 .Tool__name {
   border: 1px solid #4685c6;
   color: #4685c6;
-  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem #376ca5;
   padding: 0.5rem 1.5rem;
   margin: 0.75rem;
   border-radius: 1rem;

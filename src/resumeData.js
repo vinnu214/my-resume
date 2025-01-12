@@ -1,7 +1,7 @@
 import Applause from "Images/Certificates/Applause_Award.pdf";
 import FPA from "Images/Certificates/Fresco_Play_Miles_Award.pdf";
-import SLGAH from "Images/Certificates/Star_Of_the_Learners_Group_Award_Hackathon.pdf";
-import SLGAI from "Images/Certificates/Star_Of_the_Learners_Group_Award_ILP.pdf";
+// import SLGAH from "Images/Certificates/Star_Of_the_Learners_Group_Award_Hackathon.pdf";
+// import SLGAI from "Images/Certificates/Star_Of_the_Learners_Group_Award_ILP.pdf";
 import Cert_RJC from "Images/Certificates/ReactJS__Certificate.pdf";
 import RockStar from "Images/Certificates/Peer Recognition-Gnanavinay MURARISETTY-Rockstar Rookie.pdf";
 
@@ -14,6 +14,7 @@ export const linkedIn = {
   displayName: "Gnanavinay Murarisetty",
   url: "https://www.linkedin.com/in/gnanavinaymurari/",
 };
+export const yearOfExperience = 7;
 export const WorkExperiences = [
   {
     designation: "Senior Software Engineer",
@@ -26,9 +27,8 @@ export const WorkExperiences = [
       "Spearheaded the implementation of Stylelint to enforce SCSS rules, improving code quality by 30% and ensuring 100% adherence to consistent styling standards across the project.",
       "Created 5+ reusable components/utils to streamline development processes and improve overall efficiency for other developers.",
       "Achieved a 15% increase in code coverage through effective unit test case writing, enhancing overall code quality.",
-      "Designed and implemented new frontend features for Freshservice, leading to increase in user satisfaction and boost in daily active users.",
       "Mentored junior developers in JavaScript and Ember.js, nurturing their growth and technical proficiency, resulting in a 20% increase in productivity.",
-      "Conducted several code reviews across various products and teams, contributing to ongoing codebase improvement and the adoption of best coding practices.",
+      "Executed thorough code reviews across diverse products and teams, enhancing code quality and promoting best coding practices.",
       "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
     ],
   },
@@ -40,7 +40,6 @@ export const WorkExperiences = [
     location: "Hyderabad",
     rolesandResp: [
       "Designed an deployed an in-house web application for onboarding purposes in ReactJS, effectively enhancing productivity acutting down the onboarding process time by atleast 25% for new employee.",
-      "Presented demos to customers to showcase application features and gather feedback.",
       "Implemented unit tests for 5 modules using React Testing Library to ensure application functionality and improve code quality.",
       "Performed detailed code reviews for a team of 5 members, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
     ],
@@ -52,11 +51,11 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Engineered and launched new web applications for various geographical locations to enhance digital customer onboarding.",
+      "Engineered and launched web applications tailored to diverse geographic locations, boosting digital customer onboarding efficiency by 40%",
+      "Delivered Cross Adapter Communication between the apps which reduces the cost by 30%.",
       "Led daily client meetings to ensure transparent communication and project success.",
-      "Suggested improvements to clients to enhance user experience and application performance.",
-      "Delivered successful Proof of Concepts (POCs) on Cross Adapter Communication and Progressive Web Apps.",
-      "Recognized with awards and appreciation from the organization and clients for managing multiple projects effectively.",
+      "Advised clients on strategies to optimize user experience and elevate application performance, driving measurable improvements.",
+      "Earned awards and client commendations for successfully managing and delivering over 3 projects with exceptional efficiency and impact",
     ],
   },
 ];
@@ -74,10 +73,10 @@ export const Skills = [
   "Redux",
   "JEST",
   "Enzyme",
-  "React Testing Library",
-  "NPM",
   "GIT",
-  "Cordova",
+  "React Testing Library",
+  "Code Reviews",
+  "NPM",
 ];
 
 export const AchievementsList = [
@@ -118,13 +117,6 @@ export const AchievementsList = [
     certSummary:
       "Received this award as one of the best learners in Digital Technologies",
     path: FPA,
-  },
-  {
-    name: "Best Performer Award",
-    yearOfRelease: "2018",
-    certSummary:
-      "Collected award for exceptional performance during the training period.",
-    path: SLGAI,
   },
 ];
 export const edDtls = [

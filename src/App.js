@@ -22,12 +22,12 @@ function App() {
         <Description />
         <div>
           <WorkExperience />
-          <Cerifications />
           <Education />
         </div>
         <div>
           <Skills />
           <Tools />
+          <Cerifications />
           <Achievements />
           {/* <Hobbies /> */}
         </div>

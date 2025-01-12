@@ -11,7 +11,10 @@ function Education() {
           <li key={idx} className="Education__mainli list" data-aos="fade-left">
             <p className="Education__degree">{el.degreeName}</p>
             <p className="Education__institute">
+              <span>
               {el.instituteName + " - " + el.location}
+              </span>
+              <span>{el.specialisation}</span>
             </p>
             <div className="Education__duration ">
               <p>{el.fromDate + " - " + (el.toDate ? el.toDate : "present")}</p>
@@ -25,7 +28,7 @@ function Education() {
                   : ""}
               </p>
             </div>
-            {el.specialisation ? (
+            {/* {el.specialisation ? (
               <ul className="pl-5 respList">
                 <li className="Education__li">
                   <p className="Education__specialisation">
@@ -33,7 +36,7 @@ function Education() {
                   </p>
                 </li>
               </ul>
-            ) : null}
+            ) : null} */}
           </li>
         ))}
       </ul>
