@@ -70,10 +70,8 @@ function Description() {
         data-aos="fade-down"
         data-aos-delay="700"
       >
-        Experienced software engineer with <strong>{ApplicantData.yearOfExperience}+</strong> years in specializing in building scalable, 
-        maintainable web applications using JavaScript frameworks like React and Ember. 
-        Proven ability to deliver high-quality code through rigorous unit testing and collaborative code reviews. 
-        and crafted reusable components with clean, well-documented architectures.
+        An experienced software engineer with over <strong>{ApplicantData.yearOfExperience}</strong> years of building scalable web applications using JavaScript frameworks like React UI and Ember. 
+        Proven ability to deliver high-quality code through rigorous unit testing and collaborative code reviews, and crafting reusable components with clean, well-documented architectures.
       </div>
     </div>
   );

@@ -12,21 +12,16 @@ function Education() {
             <p className="Education__degree">{el.degreeName}</p>
             <p className="Education__institute">
               <span>
-              {el.instituteName + " - " + el.location}
+                {el.instituteName}
               </span>
+            </p>
+            <br />
+            <p className="Education__specialization">
               <span>{el.specialisation}</span>
             </p>
-            <div className="Education__duration ">
+            <div className="Education__duration">
               <p>{el.fromDate + " - " + (el.toDate ? el.toDate : "present")}</p>
-              <p className="Education__Score">
-                {el.isGPA
-                  ? el.score
-                    ? "CGPA - " + el.score
-                    : ""
-                  : el.score
-                  ? el.score + "%"
-                  : ""}
-              </p>
+              <span className="Education__location">{el.location}</span>
             </div>
             {/* {el.specialisation ? (
               <ul className="pl-5 respList">

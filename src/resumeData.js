@@ -23,13 +23,13 @@ export const WorkExperiences = [
     endDate: "",
     location: "Hyderabad",
     rolesandResp: [
-      "Engineered a GitHub workflow to detect and convert hard-coded colors in SVG files, ensuring 100% theme compatibility and streamlining code maintainability.",
-      "Spearheaded the implementation of Stylelint to enforce SCSS rules, improving code quality by 30% and ensuring 100% adherence to consistent styling standards across the project.",
-      "Created 5+ reusable components/utils to streamline development processes and improve overall efficiency for other developers.",
-      "Achieved a 15% increase in code coverage through effective unit test case writing, enhancing overall code quality.",
+      "Engineered a GitHub workflow automation to detect and convert hard-coded colors in SVG files, ensuring 100% theme compatibility and streamlining code maintainability.",
+      "Spearheaded the implementation of style lint to enforce SASS rules, improving code quality by 30% and ensuring 100% adherence to consistent styling standards across the project.",
+      "Created 5+ reusable components/utils to streamline development process and improve overall efficiency for other developers.",
+      "Attained a 15% increase in code coverage through effective unit test case writing, enhancing overall code quality.",
       "Mentored junior developers in JavaScript and Ember.js, nurturing their growth and technical proficiency, resulting in a 20% increase in productivity.",
       "Executed thorough code reviews across diverse products and teams, enhancing code quality and promoting best coding practices.",
-      "Ranked among the top 3 participants in organization-level hackathons, showcasing innovation and technical expertise."
+      "Ranked among the top 3 participants in organization level hackathons, showcasing innovation and technical expertise."
     ],
   },
   {
@@ -39,8 +39,8 @@ export const WorkExperiences = [
     endDate: "03/2022",
     location: "Hyderabad",
     rolesandResp: [
-      "Designed an deployed an in-house web application for onboarding purposes in ReactJS, effectively enhancing productivity acutting down the onboarding process time by atleast 25% for new employee.",
-      "Implemented unit tests for 5 modules using React Testing Library to ensure application functionality and improve code quality.",
+      "Designed and deployed an in-house web application using the ReactJS UI library, reducing onboarding time for new employees by 25%.",
+      "Implemented unit tests for 5 modules using the React testing library, improving application stability.",
       "Performed detailed code reviews for a team of 5 members, identifying improvement areas and recommending solutions to optimize application functionality and maintainability."
     ],
   },
@@ -51,10 +51,9 @@ export const WorkExperiences = [
     endDate: "05/2021",
     location: "Hyderabad",
     rolesandResp: [
-      "Engineered and launched web applications tailored to diverse geographic locations, boosting digital customer onboarding efficiency by 40%",
-      "Delivered Cross Adapter Communication between the apps which reduces the cost by 30%.",
+      "Developed and launched web applications tailored to diverse geographic locations, boosting digital customer onboarding efficiency by 40%",
+      "Delivered cross-adapter communication solutions, reducing operational costs by 30%.",
       "Led daily client meetings to ensure transparent communication and project success.",
-      "Advised clients on strategies to optimize user experience and elevate application performance, driving measurable improvements.",
       "Earned awards and client commendations for successfully managing and delivering over 3 projects with exceptional efficiency and impact",
     ],
   },
@@ -83,18 +82,18 @@ export const AchievementsList = [
   {
     name: "Hackathon Runner",
     yearOfRelease: "2023",
-    certSummary:"Secured second place in organization-level Hackathon through collaborative teamwork, demonstrating innovation and technical proficiency."
+    certSummary:"Secured second place in an organization level Hackathon through collaborative teamwork, demonstrating innovation and technical proficiency."
   },
   {
     name: "Hackathon Winner",
     yearOfRelease: "2022",
-    certSummary:"Secured first position in BU wide Hackathon, showcasing outstanding innovation and technical skills."
+    certSummary:"Obtained first position in the BU wide Hackathon, showcasing outstanding innovation and technical skills."
   },
   {
     name: "Peer Recognition Award",
     yearOfRelease: "2021",
     certSummary:
-      "Earned this award for outstanding performance and significant contributions to the company.",
+      "Acquired this award for outstanding performance and significant contributions to the company.",
     path: RockStar,
   },
 
@@ -121,36 +120,19 @@ export const AchievementsList = [
 ];
 export const edDtls = [
   {
-    degreeName: "Bachelor's of Technology",
-    instituteName: "SASTRA Unversity",
+    degreeName: "Bachelor of Technology",
+    instituteName: "SASTRA Deemed University",
     location: "Thanjavur",
     fromDate: "07/2013",
     isGPA: true,
-    score: 7.489,
+    score: 7.48,
     toDate: "05/2017",
     specialisation: "Electronics and Communications",
   },
-  // {
-  //   degreeName: "Intermediate",
-  //   instituteName: "Narayana Jr.College",
-  //   location: "Nellore",
-  //   fromDate: "06/2011",
-  //   toDate: "05/2013",
-  //   specialisation: "MPC",
-  //   score: 96.6,
-  // },
-  // {
-  //   degreeName: "SSC",
-  //   instituteName: "Navodaya E.M High School",
-  //   location: "Naidupeta",
-  //   fromDate: "05/2010",
-  //   toDate: "04/2011",
-  //   score: 86,
-  // },
 ];
 export const certificationsList = [
   {
-    name: "React JS Certified Developer",
+    name: "React JS certified developer",
     completionDate: "02/2021",
     instituteName: "V Skills",
     path: Cert_RJC,
@@ -169,8 +151,3 @@ export const toolsUsed = [
   "Source Tree",
 ];
 export const hobbies = ["Cricket", "Badminton", "Cooking", "Travelling"];
-// export const
-// export const
-// export const
-// export const
-// export const

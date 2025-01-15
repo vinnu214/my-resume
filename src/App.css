@@ -196,10 +196,12 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.Education__institute {
+.Education__institute, .Education__specialization {
   font-size: 2.5rem;
   font-style: italic;
   color: #677583;
+  display: flex;
+  justify-content: space-between;
 }
 .Education__duration {
   display: grid;
@@ -212,6 +214,9 @@
   .Education__duration {
     font-size: 7.5rem;
   }
+}
+.Education__location {
+  justify-self: end;
 }
 .Education__Score {
   justify-self: end;

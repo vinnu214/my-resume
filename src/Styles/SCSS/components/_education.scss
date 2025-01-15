@@ -7,10 +7,12 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
-  &__institute {
+  &__institute,&__specialization {
     font-size: 2.5rem;
     font-style: italic;
     color: $color-secondary-black;
+    display: flex;
+    justify-content: space-between;
   }
   &__duration {
     display: grid;
@@ -21,6 +23,9 @@
     @media screen and (max-width: 480px) {
       font-size: 7.5rem;
     }
+  }
+  &__location {
+    justify-self: end;
   }
   &__Score {
     justify-self: end;
